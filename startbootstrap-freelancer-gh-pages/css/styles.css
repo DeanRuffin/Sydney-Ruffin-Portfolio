@@ -93,17 +93,24 @@ input:checked + .slider:before {
   transform: translateX(505px);
 }
 
-#fullStackDevLabel {
+
+#line1Label {
 color: #FEFAE0;
-text-align: right;
+font-size: 40px;
+padding-right: 55px;
 }
 
-#techWriterLabel {
+#line2Label {
   color: #FEFAE0;
-  text-align: left;
-  
-
+  text-align: right;
+  font-size: 45px;
+  padding-right: 100px;
+  padding-bottom: 20px;
 }
+
+.tab1 { 
+  tab-size: 2; 
+} 
 /*------------------*/
 
 
