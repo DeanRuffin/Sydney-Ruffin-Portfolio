@@ -41,6 +41,80 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/* Software Developer / Technical Writer Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 960px;
+  height: 202px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #606C38;
+  -webkit-transition: .8s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 195px;
+  width: 445px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #FEFAE0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #DDA15E;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #DDA15E;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(505px);
+}
+
+
+#line1Label {
+color: #FEFAE0;
+font-size: 40px;
+padding-right: 55px;
+}
+
+#line2Label {
+  color: #FEFAE0;
+  text-align: right;
+  font-size: 45px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.tab1 { 
+  tab-size: 2; 
+} 
+/*------------------*/
+
+
+
 *,
 *::before,
 *::after {
@@ -87,7 +161,7 @@ h1, h3, h4, h5, h6 {
 
 h2 {
   margin-top: 0;
-  padding-bottom:80px;
+  padding-bottom:20px;
 }
 
 p {
@@ -165,12 +239,13 @@ sup {
 }
 
 a {
-  color: #283618;
+  color: #FEFAE0;
   text-decoration: none;
   background-color: transparent;
 }
+
 a:hover {
-  color: #283618;
+  color: #606C38;
   text-decoration: underline;
 }
 
@@ -181,6 +256,10 @@ a:not([href]):not([class]) {
 a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
+}
+
+#startBootstrapLink {
+  text-decoration: underline;
 }
 
 pre,
@@ -10158,7 +10237,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #606C38;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
