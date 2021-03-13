@@ -69,15 +69,18 @@
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: "FULL STACK DEVELOPER";
   height: 195px;
   width: 445px;
   left: 4px;
   bottom: 4px;
   background-color: #FEFAE0;
+  color: #283618;
+  font-size:65px;
   -webkit-transition: .4s;
   transition: .4s;
 }
+
 
 input:checked + .slider {
   background-color: #DDA15E;
@@ -91,26 +94,12 @@ input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(505px);
+  content: "TECHNICAL WRITER";
+  color: #BC6C25;
+  
 }
 
 
-#line1Label {
-color: #FEFAE0;
-font-size: 40px;
-padding-right: 55px;
-}
-
-#line2Label {
-  color: #FEFAE0;
-  text-align: right;
-  font-size: 45px;
-  padding-right: 100px;
-  padding-bottom: 20px;
-}
-
-.tab1 { 
-  tab-size: 2; 
-} 
 /*------------------*/
 
 
