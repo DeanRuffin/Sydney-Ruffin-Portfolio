@@ -132,6 +132,11 @@ body {
   background-color: #FEFAE0;
 }
 
+nav {
+  color: #FEFAE0;
+  font-size:20px;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
