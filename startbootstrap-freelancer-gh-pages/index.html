@@ -45,7 +45,7 @@
              <!-- Software Developer / Technical Writer Switch -->
              <container>
              <label class="switch">
-                <input type="checkbox">             
+                <input id="toggleSwitch" type="checkbox">             
                 <span class="slider">
                 </span>
               </label>
@@ -55,7 +55,7 @@
             
         </header>
         <!-- Software Developer Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section portfolio toggleSwitch" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
@@ -76,11 +76,21 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.png" alt="" />
+                            <img class="img-fluid" src="assets/img/kapsBugTrackerScreenshotPortfolio.png" alt="" />
                         </div>
                     </div>
-
-                   <!-- 
+                </div>
+            </div>
+        </div>
+                </section>
+                    <!-- Technical Writer Portfolio Section-->
+        <section class="page-section portfolio toggleSwitch" id="portfolio" style="display:none;">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -89,6 +99,10 @@
                             <img class="img-fluid" src="assets/img/portfolio/3.png" alt="" />
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>       
+    </section>
                     <!-- Portfolio Item 3
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
@@ -277,10 +291,10 @@
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">KAPS Bug Tracker</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/2.png" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/kapsBugTrackerScreenshot.png" alt="Screenshot of KAPS bug tracker app" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <a class="btn btn-primary" href="" target="_blank">Live Demo</a>
+                                    <!--<a class="btn btn-primary" href="" target="_blank">Live Demo</a>-->
                                     <a class="btn btn-primary btn-social mx-1" href="https://github.com/Afranklin6262/KAPS-Capstone.git" target="_blank"><i class="fab fa-fw fa-github"></i></a>
                                 </div>
                             </div>
