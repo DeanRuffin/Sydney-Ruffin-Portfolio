@@ -64,6 +64,16 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
+
+    // Toggle Body Contents
+    
+      $( "#toggleSwitch" ).click(function() {
+        $( ".toggleSwitch" ).toggle();
+      });
+     
+      
+    
+
   
   })(jQuery); // End of use strict
   
