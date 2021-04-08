@@ -110,14 +110,49 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
+  /*-webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
-  transform: translateX(505px);
+  transform: translateX(505px);*/
+  left: calc(100% - 448px);
   content: "TECHNICAL WRITER";
   /*color: #BC6C25;*/
 }
 
+/* small screens 480px - 576px */
+@media (max-width: 575.9px) { 
 
+  .switch {
+    height: 157px;  
+  }
+
+  .slider:before {
+    height: 150px;
+    width: 345px;
+    font-size: 48px;    
+  }
+
+  input:checked + .slider:before {
+    left: calc(100% - 348px);    
+  }
+}
+
+/* extra small screens < 480px */
+@media (max-width: 479.9px) { 
+
+  .switch {
+    height: 127px;  
+  }
+
+  .slider:before {
+    height: 120px;
+    width: 315px;
+    font-size: 38px;    
+  }
+
+  input:checked + .slider:before {
+    left: calc(100% - 318px);    
+  }
+}
 
 /* */
 
