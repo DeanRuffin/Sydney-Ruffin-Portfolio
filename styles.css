@@ -137,7 +137,8 @@ input:checked + .slider:before {
 }
 
 /* extra small screens < 480px */
-@media (max-width: 479.9px) { 
+@media (max-width: 479.9px)
+{ 
 
   .switch {
     height: 127px;  
@@ -145,7 +146,7 @@ input:checked + .slider:before {
 
   .slider:before {
     height: 120px;
-    width: 315px;
+    width: 318px;
     font-size: 38px;    
   }
 
@@ -7473,7 +7474,7 @@ button.bg-dark:focus {
 }
 
 .fixed-top {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   right: 0;
   left: 0;
