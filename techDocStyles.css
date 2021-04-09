@@ -1,3 +1,45 @@
+.bg-primary {
+    background-color: #BC6C25 !important;
+}
+
 .bg-secondary {
     background-color: #BC6C25 !important;
+}
+
+a {
+    color:#BC6C25;
+}
+
+a.bg-primary:hover, a.bg-primary:focus,
+button.bg-primary:hover,
+button.bg-primary:focus {
+  background-color: #BC6C25 !important;
+}
+
+body {
+    color: #212529;
+    font-size: 18px;
+    text-align: left;
+    line-height: 32px;
+    font-weight: 400;
+    display: block;
+    
+}
+
+img {
+    padding: 0px 110px 10px 110px;
+    position: relative;
+}
+
+p {
+    padding: 10px 110px 0px 110px;
+}
+
+ol {
+    padding: 0px 110px 10px 100px;
+}
+
+h3 {
+    color: #DDA15E;
+    padding: 40px 10px 20px 80px;
 }

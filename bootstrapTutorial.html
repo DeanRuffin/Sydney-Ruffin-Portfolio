@@ -16,10 +16,12 @@
      <!-- Core theme CSS (includes Bootstrap)-->
      <link href="/styles.css" rel="stylesheet" />
      <link href="/techDocStyles.css" rel="stylesheet"/>
+     <!-- JQuery Script-->
+     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 <body id="page-top">
       <!-- Navigation-->
-      <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav"> Sydney Ruffin
+     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav"> Sydney Ruffin
         <div class="container">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +37,63 @@
             </div>
         </div>
     </nav>
-    <h1>Bootstrap Theme Tutorial</h1>
+
+
+
+        <h3>Why use a bootstrap theme?</h3>
+
+    
+            
+        <img class="img-fluid" src="./img/originalBootstrapTemplate.png" ALIGN="left" alt="a screenshot of the freelancer bootstrap theme" />
+        <p>Bootstrap is a popular CSS framework for developing responsive websites. A responsive website will adjust the content of a webpage based on the size of the browser window.</p>
+            <p>Software developers have created templates using Bootstrap to make responsive website creation easy. You can also apply this framework without a premade theme easily using these instructions from <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Bootstrap’s Introduction</a> page. There are numerous templates to suit any need. From a single webpage to a multipurpose website with an administration page, dashboard, and an e-commerce section you can find something to fit your needs. These templates are simple to alter to make your site unique.</p>
+            <p>The template I used to make this portfolio is called <a href="https://startbootstrap.com/theme/freelancer">Freelancer</a> (shown in the image above). I picked this one because I wanted a one page website. I also liked how the navigation buttons would follow the user when they scrolled through my portfolio.</p>
+
+            
+
+       <h3>Tutorial</h3>
+       <ol>
+           <h6><li>Find a theme</li></h6>
+           <ol>
+               <li>You can easily find free themes online. The bootstrap theme I used is from <a href="https://startbootstrap.com/">https://startbootstrap.com/.</a></li>
+               <li>Make sure to check the license. Some themes may have restrictions or ask for credit for the use of their themes.</li>
+               <li>When looking through themes, make sure to click the live preview button on the website if they have one. This is the best way to see if a theme will suit your needs.</li>
+               <img class="img-fluid" src="./img/livePreviewAndLiscense.png" alt="a screenshot of the freelancer download page" />
+           </ol>
+           <h6><li>Organize your file structure</li></h6>
+           <ol>
+                <li>Download the theme</li>
+                <li>In your IDE of choice (this one is called Microsoft Visual Studio) go to the file tab and click Open Folder.</li>
+                <img class="img-fluid" src="./img/openFolderInIDE.png" alt="a screenshot of " />
+                <li>Find the folder that holds your bootstrap theme and click Select Folder.</li>
+                <img class="img-fluid" src="./img/selectFolder.png" alt="" />
+                <li>You should now see the files and folders which make up the bootstrap theme.</li>
+
+           </ol>
+           <h6><li>Organizing the html file</li></h6>
+           <ol>
+               <li>When you begin to edit your theme, make sure to pay attention to file and code structure. The web browser will read your files from top to bottom. The order you put things in will change how the web browser will display your code.</li>
+               <li>
+                For example, let’s say you have two css files. One css file came from the bootstrap theme you downloaded which we will call bootstrapfile.css. The other is one you made to edit the theme which we will call styles.css. <br>
+                Because you want to change the bootstrap theme there will be differences between these two files. The web browser needs to decide which one it will choose to listen to when it comes to those changes. <br>
+                It will apply the last css file it reads. If you put styles.css before bootstrapfile.css, the web browser will apply the styles.css file, and then the bootstrapfile.css. This will make it so that any changes you had made will not appear.
+            </li>
+           </ol>
+       </ol>
+
+       <img class="img-fluid" src="./img/codeStructure.png" alt="" />
+
+       <br><br>
+
+       <p>Thank you for reading my tutorial on how to install a bootstrap theme. The code for my portfolio is available on github so you can see the code for yourself.</p>
+       <p>Happy Programming!</p>
+
+       <!-- Bootstrap core JS-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Third party plugin JS-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+       <!-- Core theme JS-->
+       <script src="./js/scripts.js"></script>
 </body>
 </html>
