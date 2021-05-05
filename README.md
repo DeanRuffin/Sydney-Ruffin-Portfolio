@@ -28,4 +28,4 @@ About: I programmed an application where users can find the details of users on 
 Technologies used: HTML, CSS, Bootstrap, Javascript, JQuery, API
 
 
-Thank you for taking the time to look at my work, feel free to contact me here, on [LinkedIn](https://www.linkedin.com/in/sydney-n-ruffin-806170164/), or through [my portfolio](https://sydneynruffin.com/) about any projects or work you think I would be able to assist.
+Thank you for taking the time to look at my work; feel free to contact me here, on [LinkedIn](https://www.linkedin.com/in/sydney-n-ruffin-806170164/), or through [my portfolio](https://sydneynruffin.com/) about any projects or work you think I would be able to assist.
