@@ -3,7 +3,7 @@
 ## Hello,
 
 
-My name is Sydney Ruffin (she/her), a recent bootcamp graduate from the Skilled KC Technical Institute who has a BA in English from Truman State University. I gained experience to create full stack applications (MERN). If you look at any of my projects you will see a variety of skills I have learned: HTML, CSS, Bootstrap, Javascript, Node.js, and more.
+My name is Sydney Ruffin (she/her), a recent bootcamp graduate from the Skilled KC Technical Institute with a BA in English from Truman State University. I gained experience to create full stack applications (MERN). If you look at any of my projects you will see a variety of skills I have learned: HTML, CSS, Bootstrap, Javascript, Node.js, and more.
 
 The link to this portfolio is [sydneynruffin.com](https://sydneynruffin.com/)
 
